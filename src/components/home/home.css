@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+      /*Top Part*/
+.top{
+    background-image: url("https://cdn.pixabay.com/photo/2015/07/28/22/01/office-865091_960_720.jpg");
+    height: 400px; 
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Staatliches', cursive;
+}
+.para{
+    font-size: 40px;
+}
+.greeting-box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+}
+.hi{
+    margin-bottom: 1px;
+    font-size: 60px;
+}
+
+      /*Middle Part*/
+.middle{
+    background-color: white;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}      
+.represent-box{
+    height: 100%;
+    width: 50%;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+.skills-box{
+    background-color: rgb(78, 78, 42);
+    height: 100%;
+    width: 50%;
+}
+.third-represent{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+}
+.box1.box2.box3.box4{
+    width: 50%;
+}
+.box1{
+    margin-right: 5%;
+}
+.box3{
+    margin-right: 5%;
+}
+
+            /*Bottom Part*/
+.bottom{
+    height: 250px;
+    width: 100%;
+    background-color: rgb(252, 245, 245);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}  
+.web-dev{
+    height: 100%;
+    width: 33%;
+    border-right: solid 1px rgb(156, 151, 151);
+    display: flex;
+    flex-direction: column;
+}   
+.web-des{
+    height: 100%;
+    width: 33%;
+    border-right: solid 1px rgb(156, 151, 151);
+    display: flex;
+    flex-direction: column;
+}
+.app-dev{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+} 
+.dev-logo{
+    padding-top: 8%;
+    align-self: center;
+}  
+.dev-service{
+    align-self: center;
+    padding-top: 4%;
+} 
+
+
+.des-logo{
+    align-self: center;
+    padding-top: 8%;
+}
+.des-service{
+    align-self: center;
+    padding-top: 4%;
+}
+.des-service-about{
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+} 
+
+
+.app-logo{
+    align-self: center;
+    padding-top: 8%;
+}
+.app-service{
+    text-align: center;
+    padding-top: 4%;
+}
+.app-service-about{
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.service-about{
+    text-align: center;
+}   
+.service-line{
+    height: 2px;
+    width: 30%;
+    align-self: center;
+    background-color: black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
