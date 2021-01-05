@@ -44,9 +44,12 @@ body{
     padding-top: 50px;
 }
 .skills-box{
-    background-color: rgb(78, 78, 42);
+    padding-left: 40px;
+    padding-top: 50px;
     height: 100%;
     width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 .third-represent{
     display: flex;
@@ -62,6 +65,7 @@ body{
 .box3{
     margin-right: 5%;
 }
+
 
             /*Bottom Part*/
 .bottom{
