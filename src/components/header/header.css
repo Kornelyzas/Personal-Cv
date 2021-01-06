@@ -9,9 +9,16 @@
     font-size: 20px;
 }
 .work-route{
-    margin-left: 1%;
+    margin-left: 30%;
     align-self: center;
+    color: white;
+    text-decoration: wavy;
 }
 .home-route{
     align-self: center;
+    color: white;
+}
+.cv-route{
+    margin-left: 40%;
+    color: white;
 }
