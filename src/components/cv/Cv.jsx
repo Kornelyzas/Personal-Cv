@@ -16,7 +16,7 @@ function Cv() {
                 <div className="left-side">
 
                 </div>
-                <div className="right-side">
+                <div className="middle-side">
                     <div className="work-xp">
                         <h3 className="xp-div">Work Experience</h3>
                     </div>
@@ -62,7 +62,42 @@ function Cv() {
                             </p>
                         </div>
                     </div>
-                    <div></div>
+                </div>
+                <div className="right-side">
+                <div className="work-xp">
+                        <h3 className="xp-div">Education</h3>
+                    </div>
+                    <div className="work-xp-div">
+                        <div className="work-xp-div-7">
+                            <p>
+                                    <b>Kaunas Information technology School</b><br></br>
+                                    2020-2021<br></br>
+                                    Full-Stack Web Development<br></br>
+                                    Kaunas, Lithuania
+                            </p>
+                        </div>
+                    </div>
+                    <div className="work-xp-div">
+                        <div className="work-xp-div-7">
+                            <p>
+                                    <b>Kaunas University of Applied Sciences</b><br></br>
+                                    2016-2017<br></br>
+                                    Logistics Management<br></br>
+                                    Kaunas, Lithuania<br></br>
+                                    (Not graduated)
+                            </p>
+                        </div>
+                    </div>
+                    <div className="work-xp-div">
+                        <div className="work-xp-div-7">
+                            <p>
+                                    <b>Kazlu Ruda Kazys Grinius gymnasium</b><br></br>
+                                    2011-2015<br></br>
+                                    Middle school diploma<br></br>
+                                    Kazlu Ruda, Lithuania<br></br>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

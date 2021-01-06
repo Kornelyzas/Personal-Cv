@@ -50,9 +50,14 @@
     width: 30%;
     border-right: solid rgb(36, 36, 36) 1px;
 }
+.middle-side{
+    height: 100%;
+    width: 30%;
+    margin-left: 2%;
+}
 .right-side{
     height: 100%;
-    width: 70%;
+    width: 30%;
     margin-left: 2%;
 }
 .xp-div{
@@ -60,7 +65,4 @@
     margin-bottom: 2%;
     font-size: 35px;
     color: rgb(11, 92, 11);
-}
-.work-box{
-    
 }
