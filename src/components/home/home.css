@@ -22,7 +22,7 @@ body{
 .greeting-box{
     display: flex;
     flex-direction: column;
-    margin-top: 8%;
+    margin-top: 22%;
 }
 .hi{
     margin-bottom: 1px;

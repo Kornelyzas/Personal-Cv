@@ -39,6 +39,8 @@
 
 
                 /*Main cv-part*/
+
+                /*Right&Middle*/
 .cv-main{
     height: 100%;
     width: 100%;
@@ -65,4 +67,37 @@
     margin-bottom: 2%;
     font-size: 35px;
     color: rgb(11, 92, 11);
+}
+
+
+                /*Left side*/
+.left-side{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.photo{
+    background-image: url("https://cdn.pixabay.com/photo/2015/03/26/09/41/tie-690084_960_720.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    align-self: center;
+    margin-left: 45%;
+    margin-top: -30%;
+    margin-bottom: 5%;
+    border: solid white 2px;
+}
+.p-div{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.lang-skills{
+   margin-left: 45%;
+}
+.about-me{
+    margin-left: 45%;
 }
