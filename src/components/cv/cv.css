@@ -1,6 +1,6 @@
             /*Header*/
 .cv{
-    height: 1000px;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -100,4 +100,89 @@
 }
 .about-me{
     margin-left: 45%;
+}
+
+                /*Responsive styling*/
+@media only screen and (max-width: 768px)  {
+    .cv-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .left-side{
+        border-right: none;
+        width: 70%;
+        margin-top: 18%;
+    }
+    .middle-side{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .right-side{
+        width: 100%;
+        text-align: center;
+    }
+}     
+
+@media only screen and (max-width: 425px) {
+    html{
+        width: 100%;
+    }
+    .cv-header{
+        width: 100%;
+    }
+    .about-me{
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 10%;
+    }
+    .left-side{
+        margin-top: 30%;
+        padding-right: 3%;
+        width: 100%;
+        text-align: center;
+    }
+    .middle-side{
+        padding-right: 5%;
+    }
+    .right-side{
+        padding-right: 5%;
+    }
+    .photo{
+        margin-left: 0;
+    }
+    .lang-skills{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    html{
+        width: 102%;
+    }
+    .left-side{
+        margin-top: 30%;
+        padding-right: 5%;
+        width: 100%;
+        text-align: center;
+    }
+    .middle-side{
+        padding-right: 5%;
+    }
+    .right-side{
+        padding-right: 5%;
+    }
+    .lang-skills{
+        margin-left: 0;
+    }
+    .photo{
+        margin-left: 0;
+    }
+    .cv-header{
+        text-align: center;
+    }
+    .about-me{
+        width: 100%;
+        padding-left: 3%;
+    }
 }

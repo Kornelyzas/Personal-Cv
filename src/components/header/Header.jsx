@@ -11,9 +11,6 @@ function Header() {
             <Link to="/cv" style={{ textDecoration: 'none' }}>
                 <div className="cv-route"><b>CV</b></div>
             </Link>
-            <Link to="/work" style={{ textDecoration: 'none' }}>
-                <div className="work-route"><b>WORK</b></div>
-            </Link>
         </div>
     )
 }

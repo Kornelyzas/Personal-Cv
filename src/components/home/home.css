@@ -1,11 +1,12 @@
-body{
+body, html{
     margin: 0;
     padding: 0;
+    height: 100%;
 }
       /*Top Part*/
 .top{
     background-image: url("https://cdn.pixabay.com/photo/2015/07/28/22/01/office-865091_960_720.jpg");
-    height: 400px; 
+    height: 390px; 
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -145,4 +146,126 @@ body{
     background-color: black;
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+            /*Responsive styling*/
+
+@media only screen and (max-width: 768px) {
+    .middle{
+        margin-bottom: 5%;
+    }
+   .para{
+       margin-bottom: 10%;
+   }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        margin-top: 7%;
+        height: 100%;
+    }
+    .third-represent{
+        margin-bottom: 6%;
+    }
+    .box3{
+        margin-left: -7%;
+    }
+    .web-des{
+        align-self: center;
+        width: 70%;
+        border-right: none;
+    }
+    .web-dev{
+        align-self: center;
+        width: 70%;
+        border-right: none;
+    }
+    .app-dev{
+        align-self: center;
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 425px) {
+    html{
+        width: 100%;
+    }
+    .greeting-box{
+        padding-bottom: 18%;
+    }
+    .hi{
+        margin-top: 30%;
+        margin-bottom: -1%;
+    }
+    .hii{
+
+    }
+    .bottom{
+        flex-direction: column;
+        margin-top: 65%;
+        height: 100%;
+    }
+    .web-des{
+        align-self: center;
+        width: 100%;
+        border-right: none;
+    }
+    .web-dev{
+        align-self: center;
+        width: 100%;
+        border-right: none;
+    }
+    .app-dev{
+        align-self: center;
+        width: 100%;
+    }
+    .third-represent{
+        width: 150%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+        flex-wrap: nowrap;
+    }
+    .middle{
+        display: flex;
+        flex-direction: column;
+    }
+    .represent-box{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .skills-box{
+        width: 100%;
+        padding-left: 40%;
+    }
+    .box1{
+        padding-right: 30%;
+    }
+    .box2{
+        padding-right: 30%;
+    }
+    .box3{
+        padding-right: 30%;
+    }
+    .box4{
+        padding-right: 30%;
+    }
+    .sec-represent{
+        padding-right: 10%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .bottom{
+        margin-top: 75%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .skills-box{
+        margin-top: 8%;
+    }
+    .bottom{
+        margin-top: 95%;
+    }
 }
