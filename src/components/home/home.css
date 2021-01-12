@@ -2,15 +2,19 @@ body, html{
     margin: 0;
     padding: 0;
     height: 100%;
-}
-      /*Top Part*/
-.top{
-    background-image: url("https://cdn.pixabay.com/photo/2015/07/28/22/01/office-865091_960_720.jpg");
-    height: 390px; 
     width: 100%;
+}
+.home{
+    background-attachment: fixed;
+    background-image: url("https://cdn.pixabay.com/photo/2015/07/28/22/01/office-865091_960_720.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+      /*Top Part*/     
+.top{
+    height: 390px; 
+    width: 100%;
     color: white;
     text-align: center;
     display: flex;
@@ -37,6 +41,7 @@ body, html{
     width: 100%;
     display: flex;
     flex-direction: row;
+    padding-bottom: 18%;
 }      
 .represent-box{
     height: 100%;
@@ -60,11 +65,39 @@ body, html{
 .box1.box2.box3.box4{
     width: 50%;
 }
+.bi{
+    color: black;
+}
+.bi-github:hover {
+    fill: rgb(94, 97, 97);
+    transition-duration: 0.3s;
+   
+}
+.bi-linkedin:hover {
+    fill: rgb(20, 20, 228);
+    transition-duration: 0.3s;
+}
+.bi-facebook:hover {
+    fill: rgb(73, 73, 231);
+    transition-duration: 0.3s;
+}
+.bi-google:hover {
+    fill: rgb(184, 43, 8);
+    transition-duration: 0.3s;
+   
+}
 .box1{
     margin-right: 5%;
 }
 .box3{
     margin-right: 5%;
+    width: 60%;
+}
+.box2{
+    width: 60%;
+}
+.btm-repr{
+    padding-left: 4%;
 }
 
 
@@ -149,10 +182,27 @@ body, html{
 }
 
             /*Responsive styling*/
+@media only screen and (max-width: 1024px) {
+    .top-repr{
+        display: flex;
+        flex-direction: row;
+    }
+    .btm-repr {
+        display: flex;
+        flex-direction: row;
+    }
+    .middle{
+        padding-bottom: 35%;
+    }
+}
 
 @media only screen and (max-width: 768px) {
+    .home{
+        width: 768px;
+    }
     .middle{
-        margin-bottom: 5%;
+        height: 100%;
+        padding-bottom: 10%;
     }
    .para{
        margin-bottom: 10%;
@@ -160,14 +210,11 @@ body, html{
     .bottom{
         display: flex;
         flex-direction: column;
-        margin-top: 7%;
+        padding-top: 7%;
         height: 100%;
     }
     .third-represent{
         margin-bottom: 6%;
-    }
-    .box3{
-        margin-left: -7%;
     }
     .web-des{
         align-self: center;
@@ -183,8 +230,27 @@ body, html{
         align-self: center;
         width: 70%;
     }
+    .box2{
+        width: 100%;
+    }
+    .box3{
+        width: 100%;
+    }
+    .top-repr{
+        display: flex;
+        flex-direction: column;
+        padding-right: 4%;
+    }
+    .btm-repr{
+        display: flex;
+        flex-direction: column;
+    }
 }
+
 @media only screen and (max-width: 425px) {
+    .home{
+        width: 425px;
+    } 
     html{
         width: 100%;
     }
@@ -200,7 +266,6 @@ body, html{
     }
     .bottom{
         flex-direction: column;
-        margin-top: 65%;
         height: 100%;
     }
     .web-des{
@@ -239,16 +304,13 @@ body, html{
         padding-left: 40%;
     }
     .box1{
-        padding-right: 30%;
+        padding-right: 0%;
     }
     .box2{
-        padding-right: 30%;
-    }
-    .box3{
-        padding-right: 30%;
+        padding-right: 44%;
     }
     .box4{
-        padding-right: 30%;
+        padding-right: 55%;
     }
     .sec-represent{
         padding-right: 10%;
@@ -256,16 +318,52 @@ body, html{
 }
 
 @media only screen and (max-width: 375px) {
-    .bottom{
-        margin-top: 75%;
+    .home{
+        width: 375px;
+    } 
+    .fourth-represent{
+        margin-top: 1%;
+    }
+    .box1{
+        padding-right: 35%;
+    }
+    .box2{
+        padding-right: 35%;
+        padding-bottom: 5%;
+    }
+    .box3{
+        padding-right: 43%;
+    }
+    .box4{
+        padding-right: 43%;
+    }
+    .top-repr{
+        display: flex;
+        flex-direction: column;
+    }
+    .btm-repr{
+        display: flex;
+        flex-direction: column;
     }
 }
 
 @media only screen and (max-width: 320px) {
+    .home{
+        width: 320px;
+    } 
     .skills-box{
-        margin-top: 8%;
+        margin-top: 0;
     }
-    .bottom{
-        margin-top: 95%;
+    .fourth-represent{
+        margin-top: 1%;
+    }
+    .box1{
+        padding-right: 30%;
+    }
+    .box2{
+        padding-right: 30%;
+    }
+    .box3{
+        padding-right: 43%;
     }
 }
