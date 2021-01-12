@@ -98,6 +98,10 @@ body, html{
 }
 .btm-repr{
     padding-left: 4%;
+    width: 50%;
+}
+.top-repr{
+    width: 50%;
 }
 
 
@@ -185,11 +189,11 @@ body, html{
 @media only screen and (max-width: 1024px) {
     .top-repr{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
     .btm-repr {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
     .middle{
         padding-bottom: 35%;
@@ -304,16 +308,26 @@ body, html{
         padding-left: 40%;
     }
     .box1{
-        padding-right: 0%;
+        padding-right: 40%;
     }
     .box2{
-        padding-right: 44%;
+        padding-right: 40%;
+        padding-bottom: 5%;
+    }
+    .box3{
+        padding-right: 50%;
     }
     .box4{
-        padding-right: 55%;
+        padding-right: 50%;
     }
     .sec-represent{
         padding-right: 10%;
+    }
+    .btm-repr{
+        width: 100%;
+    }
+    .top-repr{
+        width: 100%;
     }
 }
 
