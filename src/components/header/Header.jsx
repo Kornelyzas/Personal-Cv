@@ -9,10 +9,13 @@ function Header() {
     return (
         <div className="header">
             <Link to="/" style={{ textDecoration: 'none' }}>
-                <div className="home-route"><b>HOME</b></div>
+                <div className="home-route">HOME</div>
             </Link>
             <Link to="/cv" style={{ textDecoration: 'none' }}>
-                <div className="cv-route"><b>CV</b></div>
+                <div className="cv-route">CV</div>
+            </Link>
+            <Link to="/work" style={{ textDecoration: 'none' }}>
+                <div className="work-route">PORTFOLIO</div>
             </Link>
         </div>
     )

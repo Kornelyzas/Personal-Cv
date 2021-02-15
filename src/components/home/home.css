@@ -11,9 +11,78 @@ body, html{
     background-repeat: no-repeat;
     background-size: cover;
 }
-      /*Top Part*/     
+    /*-----Home Pic Animation-----*/
+
+    
+    .hi{
+        margin-bottom: 1px;
+        font-size: 90px;
+        animation: fadeIn ease-out 5s;
+        position: relative;
+        color: gold;
+        -webkit-animation: fadeIn ease-out 5s;
+    }
+
+    @keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+    @-moz-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+    @-webkit-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+    
+    @-o-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+    
+    @-ms-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }    
+    
+      .hii{
+        animation: fadeInn ease-in 6s;
+        -webkit-animation: fadeInn ease-in 6s;
+        position: relative;
+        font-size: 50px;
+      }
+
+    @keyframes fadeInn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+    @-moz-keyframes fadeInn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+    @-webkit-keyframes fadeInn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+    
+    @-o-keyframes fadeInn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+    
+    @-ms-keyframes fadeInn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }    
+
+     
+
+      /*------Top Part------*/     
 .top{
-    height: 390px; 
+    height: 600px; 
     width: 100%;
     color: white;
     text-align: center;
@@ -21,17 +90,13 @@ body, html{
     flex-direction: column;
     font-family: 'Staatliches', cursive;
 }
-.para{
+/* .para{
     font-size: 40px;
-}
+} */
 .greeting-box{
     display: flex;
     flex-direction: column;
-    margin-top: 22%;
-}
-.hi{
-    margin-bottom: 1px;
-    font-size: 60px;
+    margin-top: 27%;
 }
 
       /*Middle Part*/
@@ -41,7 +106,7 @@ body, html{
     width: 100%;
     display: flex;
     flex-direction: row;
-    padding-bottom: 18%;
+    padding-bottom: 34%;
 }      
 .represent-box{
     height: 100%;
@@ -186,198 +251,3 @@ body, html{
 }
 
             /*Responsive styling*/
-@media only screen and (max-width: 1024px) {
-    .top-repr{
-        display: flex;
-        flex-direction: column;
-    }
-    .btm-repr {
-        display: flex;
-        flex-direction: column;
-    }
-    .middle{
-        padding-bottom: 35%;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .home{
-        width: 768px;
-    }
-    .middle{
-        height: 100%;
-        padding-bottom: 10%;
-    }
-   .para{
-       margin-bottom: 10%;
-   }
-    .bottom{
-        display: flex;
-        flex-direction: column;
-        padding-top: 7%;
-        height: 100%;
-    }
-    .third-represent{
-        margin-bottom: 6%;
-    }
-    .web-des{
-        align-self: center;
-        width: 70%;
-        border-right: none;
-    }
-    .web-dev{
-        align-self: center;
-        width: 70%;
-        border-right: none;
-    }
-    .app-dev{
-        align-self: center;
-        width: 70%;
-    }
-    .box2{
-        width: 100%;
-    }
-    .box3{
-        width: 100%;
-    }
-    .top-repr{
-        display: flex;
-        flex-direction: column;
-        padding-right: 4%;
-    }
-    .btm-repr{
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-@media only screen and (max-width: 425px) {
-    .home{
-        width: 425px;
-    } 
-    html{
-        width: 100%;
-    }
-    .greeting-box{
-        padding-bottom: 18%;
-    }
-    .hi{
-        margin-top: 30%;
-        margin-bottom: -1%;
-    }
-    .hii{
-
-    }
-    .bottom{
-        flex-direction: column;
-        height: 100%;
-    }
-    .web-des{
-        align-self: center;
-        width: 100%;
-        border-right: none;
-    }
-    .web-dev{
-        align-self: center;
-        width: 100%;
-        border-right: none;
-    }
-    .app-dev{
-        align-self: center;
-        width: 100%;
-    }
-    .third-represent{
-        width: 150%;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 10%;
-        flex-wrap: nowrap;
-    }
-    .middle{
-        display: flex;
-        flex-direction: column;
-    }
-    .represent-box{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    .skills-box{
-        width: 100%;
-        padding-left: 40%;
-    }
-    .box1{
-        padding-right: 40%;
-    }
-    .box2{
-        padding-right: 40%;
-        padding-bottom: 5%;
-    }
-    .box3{
-        padding-right: 50%;
-    }
-    .box4{
-        padding-right: 50%;
-    }
-    .sec-represent{
-        padding-right: 10%;
-    }
-    .btm-repr{
-        width: 100%;
-    }
-    .top-repr{
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 375px) {
-    .home{
-        width: 375px;
-    } 
-    .fourth-represent{
-        margin-top: 1%;
-    }
-    .box1{
-        padding-right: 35%;
-    }
-    .box2{
-        padding-right: 35%;
-        padding-bottom: 5%;
-    }
-    .box3{
-        padding-right: 43%;
-    }
-    .box4{
-        padding-right: 43%;
-    }
-    .top-repr{
-        display: flex;
-        flex-direction: column;
-    }
-    .btm-repr{
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-    .home{
-        width: 320px;
-    } 
-    .skills-box{
-        margin-top: 0;
-    }
-    .fourth-represent{
-        margin-top: 1%;
-    }
-    .box1{
-        padding-right: 30%;
-    }
-    .box2{
-        padding-right: 30%;
-    }
-    .box3{
-        padding-right: 43%;
-    }
-}
