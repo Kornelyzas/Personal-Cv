@@ -19,16 +19,8 @@ function Cv() {
                             <h3>Language Skills</h3>
                             <p className="p-div">
                                 <b className="p-box">English</b> B2
-                                <b className="p-box">Russian</b> B1
+                                <b className="p-box">Russian</b> A2
                                 <b className="p-box">Dutch</b> A1
-                            </p>
-                        </div>
-                        <div className="about-me">
-                            <h3>About Me</h3>
-                            <p>
-                                "Hi! I'm a begginer Web Developer, I'm studying in Kaunas Information
-                                Technology School. At the moment I'm finished Front-End course,
-                                but studying more by myself. And waiting with excitment for Back-End!"
                             </p>
                         </div>
                     </div>
