@@ -1,0 +1,52 @@
+body{
+    background-attachment: fixed;
+    background-image: url("https://cdn.pixabay.com/photo/2015/07/28/22/01/office-865091_960_720.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.work-container{
+    width: 80%;
+    height: 600px;
+    background: rgb(41, 39, 39);
+    padding-top: 1%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 1%;
+    justify-self: center;
+    border-radius: 2mm;
+    text-align: center;
+    color: yellow;
+    animation: fadeIin ease-out 2s;
+    position: relative;
+    -webkit-animation: fadeIin ease-out 2s;
+}
+@keyframes fadeIin {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+@-moz-keyframes fadeIin {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+@-webkit-keyframes fadeIin {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+@-o-keyframes fadeIin {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+@-ms-keyframes fadeIin {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+    .work-main{
+        color: white;
+    }

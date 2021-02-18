@@ -1,5 +1,6 @@
 import React from 'react'
 import ProgressBar from 'react-bootstrap/ProgressBar'
+import Spinner from 'react-bootstrap/Spinner'
 import './home.css';
 
 function Home() {
@@ -24,17 +25,27 @@ function Home() {
                             <div className="serv1">
                                 <div className="web-dev">
                                     <div className="ser-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
-                                        <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
-                                    </svg>
+                        
                                     </div>
                                     <h4 className="sr-c">
-                                        Web Development
+                                    <Spinner animation="grow" variant="light" /> Web Development
+                                    </h4>
+                                    <h4 className="sr-c">
+                                    <Spinner animation="grow" variant="light" /> Web Design
+                                    </h4>
+                                    <h4 className="sr-c">
+                                    <Spinner animation="grow" variant="light" /> Back-End Programing
+                                    </h4>
+                                    <h4 className="sr-c">
+                                    <Spinner animation="grow" variant="light" /> Database Creation
                                     </h4>
                                 </div>
                             </div>
                             <div className="serv2">
-                                <p>
+                                <div className="my-pic">
+
+                                </div>
+                                <p className="intro-text">
                                     "Hi! My name is Kornelijus. Just a simple guy from province
                                     who loves nature and traveling. I'm studying Full-Stack
                                     Web Development course at Kaunas Information Technology School.
@@ -77,19 +88,19 @@ function Home() {
                         </div>
                         <div className="skill-main">
                             <h4>HTML</h4>
-                            <ProgressBar variant="warning" now={90} label={`90%`} />
+                            <ProgressBar variant="warning" now={90}/>
                             <h4>CSS</h4>
-                            <ProgressBar variant="warning" now={80} label={`80%`} />
+                            <ProgressBar variant="warning" now={80}/>
                             <h4>JS</h4>
-                            <ProgressBar variant="warning" now={50} label={`50%`} />
+                            <ProgressBar variant="warning" now={50}/>
                             <h4>JAVA</h4>
-                            <ProgressBar variant="warning" now={30} label={`30%`} />
+                            <ProgressBar variant="warning" now={30}/>
                             <h4>PHP</h4>
-                            <ProgressBar variant="warning" now={5} label={`5%`} />
+                            <ProgressBar variant="warning" now={5}/>
                             <h4>PYTHON</h4>
-                            <ProgressBar variant="warning" now={2} label={`2%`} />
+                            <ProgressBar variant="warning" now={2}/>
                             <h4>REACT</h4>
-                            <ProgressBar variant="warning" now={50} label={`50%`} />
+                            <ProgressBar variant="warning" now={50}/>
                         </div>
                     </div>
                 </div>
