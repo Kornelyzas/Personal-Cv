@@ -107,13 +107,15 @@ body, html{
 }    
 .intro{
     width: 98%;
-    height: 620px;
+    height: 630px;
     display: flex;
     flex-direction: row;
     background-color: rgb(41, 39, 39);
     margin-bottom: 1%;
     align-self: center;
     border-radius: 2mm;
+    animation: fadeInn ease-in 2s;
+    -webkit-animation: fadeInn ease-in 2s;
 }
 .about{
     width: 70%;
@@ -208,4 +210,60 @@ body, html{
     flex-direction: column;
     justify-content: center;
     height: 100%;
+}
+
+        /*Responsive*/
+@media only screen and (max-width: 1024px) {
+    .sr-c {
+        font-size: 30px;
+    }
+    .intro{
+        flex-direction: column;
+        height: 100%;
+        margin-bottom: 2%;
+    }
+    .about{
+        width: 100%;
+    }
+    .skills{
+        width: 80%;
+        align-self: center;
+        margin-top: 5%;
+        margin-bottom: 4%;
+    }
+    .web-dev{
+        margin-top: 57%;
+    }
+    .photo{
+        display: none;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .sr-c{
+      font-size: 23px;  
+    }
+    .serv1{
+        margin-top: 20%;
+    }
+    .skills{
+        margin-top: 10%;
+    }
+    .top{
+        height: 400px;
+    }
+    .hi{
+        font-size: 60px;
+    }
+    .hii{
+        font-size: 40px;
+    }
+    .greeting-box{
+        margin-top:30%;
+        margin-bottom: 15%;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .greeting-box{
+        padding-left: 5%;   
+    }
 }

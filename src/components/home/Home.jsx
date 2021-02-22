@@ -24,9 +24,6 @@ function Home() {
                         <div className="services">
                             <div className="serv1">
                                 <div className="web-dev">
-                                    <div className="ser-icon">
-                        
-                                    </div>
                                     <h4 className="sr-c">
                                     <Spinner animation="grow" variant="light" /> Web Development
                                     </h4>

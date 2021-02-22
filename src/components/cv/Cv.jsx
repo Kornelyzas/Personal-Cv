@@ -32,7 +32,7 @@ function Cv() {
                         <div className="work-xp-box-1 work-box">
                             <p>
                                 <b>UAB Baltic Furniture Components</b><br></br>
-                                2016-2021<br></br>
+                                2016-2021/02<br></br>
                                 Cutting Machine Operator<br></br>
                                 Kaunas, Lithuania
                             </p>
