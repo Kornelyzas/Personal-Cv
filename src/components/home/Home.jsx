@@ -12,7 +12,7 @@ function Home() {
                 </div>
                 <div className="greeting-box">
                     <h2 className="para hi">I'm Kornelijus</h2>
-                    <p className="para hii">WEB DEVELOPER</p>
+                    <p className="para hii">fRONT-END DEVELOPER</p>
                 </div>
             </div>
             <div className="middle">
@@ -25,16 +25,16 @@ function Home() {
                             <div className="serv1">
                                 <div className="web-dev">
                                     <h4 className="sr-c">
-                                    <Spinner animation="grow" variant="light" /> Web Development
+                                    <Spinner animation="grow" variant="light" /> Front-End Developer
                                     </h4>
                                     <h4 className="sr-c">
-                                    <Spinner animation="grow" variant="light" /> Web Design
+                                    <Spinner animation="grow" variant="light" /> Web Designer
                                     </h4>
                                     <h4 className="sr-c">
-                                    <Spinner animation="grow" variant="light" /> Back-End Programing
+                                    <Spinner animation="grow" variant="light" /> Database Creation/Administrating
                                     </h4>
                                     <h4 className="sr-c">
-                                    <Spinner animation="grow" variant="light" /> Database Creation
+                                    <Spinner animation="grow" variant="light" /> Software Testing
                                     </h4>
                                 </div>
                             </div>
@@ -90,13 +90,11 @@ function Home() {
                             <ProgressBar variant="warning" now={80}/>
                             <h4>JS</h4>
                             <ProgressBar variant="warning" now={50}/>
-                            <h4>JAVA</h4>
-                            <ProgressBar variant="warning" now={30}/>
                             <h4>PHP</h4>
-                            <ProgressBar variant="warning" now={5}/>
-                            <h4>PYTHON</h4>
+                            <ProgressBar variant="warning" now={30}/>
+                            <h4>REACT NATIVE</h4>
                             <ProgressBar variant="warning" now={2}/>
-                            <h4>REACT</h4>
+                            <h4>REACT.JS</h4>
                             <ProgressBar variant="warning" now={50}/>
                         </div>
                     </div>
